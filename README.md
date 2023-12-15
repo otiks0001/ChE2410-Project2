@@ -39,6 +39,7 @@ The decision was made to exclusively address the experimental data concerning gl
 I utilized Python's 'minimize' function to conduct my model fitting, yielding divergent results from the paper's findings. Establishing correlation was challenging due to undisclosed parameters by the author, limiting the solver's attempts. Yet, the derived parameters could not generate a model akin to the one in the paper, illustrated in the subsequent chart from my analysis.
 
 <p align="center">
+![](Project_image/CasesEducation.PNG)
 
 Improving the accuracy of fitting our data may involve rectifying inaccuracies in initial values, a scarcity of data points, noisy data, and the absence of pH measurement values. To resolve these issues, employing precise parameters, nonlinear modifications, acquiring additional data, reducing noise, and using robust solvers can enhance the accuracy of the analysis.
 
@@ -52,3 +53,26 @@ The system is observed to display varied behavior, potentially adopting an alter
 
 ## Sensitivity Analysis
 
+To evaluate how the model responds to different parameter changes, an investigation into each parameter's sensitivity was conducted by making slight adjustments to their values. Initially, a 1% adjustment was applied to each parameter, but the resulting models lacked clear differences. Consequently, more significant adjustments of 10% and 20% were attempted to better understand their impact. The subsequent figures showcase the outcomes of this comprehensive analysis.
+
+<p align="center">
+
+<p align="center">
+
+<p align="center">
+
+The impact of the 'ks' parameter on the system was negligible at 1% and 10%, but a significant change became evident at 20%. However, the nominal parameter remained relatively unchanged across all three analyses, showing minimal sensitivity to variations.
+
+## Global sensitivity Analysis
+
+**Analysis of Parameter Influence on Steady-State S Value**
+
+The analysis aims to identify the parameters that have the most significant impact on the steady-state value of variable S. To accomplish this, a systematic approach involving the perturbation of model parameters will be employed. The parameters will be randomly adjusted within a range of ±20% for a total of 100 iterations. These alterations will be sampled from a uniform distribution to ensure diverse parameter sets. 
+
+<p align="center">
+ 
+This process shows a comprehensive understanding of how variations in parameter values affect the steady state of S across multiple simulations. This offer valuable insights into the relative impact and sensitivity of individual parameters on the steady-state behavior of variable S.
+
+<p align="center">
+  
+Additionally, the Global Sensitivity Analysis also utilizes histograms that depict the distribution of parameter values. These histograms provide a visual overview of the spread and frequency of these values. Serving as visual aids, they elucidate the distribution characteristics of the parameters and contribute to a comprehensive understanding of their behavior and variability.
