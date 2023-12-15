@@ -59,7 +59,7 @@ To evaluate how the model responds to different parameter changes, an investigat
 
 <p align="center">
 
-<p align="center">
+![](20.png)
 
 The impact of the 'ks' parameter on the system was negligible at 1% and 10%, but a significant change became evident at 20%. However, the nominal parameter remained relatively unchanged across all three analyses, showing minimal sensitivity to variations.
 
