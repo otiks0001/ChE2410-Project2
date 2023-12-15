@@ -15,7 +15,8 @@ The analysis was executed using the given Ordinary Differential Equations (ODEs)
 
 The modified Monod equation (Eq. (1)) was used to calculate the growth kinetics of R. albus. This included an inhibition factor (iPh)
 
-![](images/Equation 1.png)
+![](<img width="802" alt="Equation 1" src="https://github.com/otiks0001/ChE2410-Project2/assets/149008488/dd1fda45-6407-4bfc-bc5c-e44cca32d43e">
+)
 
 The inhibition factor (iPh) is a function of pH according to Eq. (2)
 
